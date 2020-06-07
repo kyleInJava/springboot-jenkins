@@ -16,7 +16,7 @@ public class SpringbootJenkinsApplication {
 	
 	@GetMapping("hello/{name}")
 	public String hello(@PathVariable String name) {
-		return "hello" +name;
+		return "hello2" +name;
 	}
 
 }
